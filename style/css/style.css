@@ -1,0 +1,56 @@
+
+.corners  {
+    border-radius: 20px;
+    
+}
+.dataTables_wrapper .dataTables_filter input { 
+    border-radius: 20px;
+}
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 20px;
+    text-align: center;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border-radius: 50px;
+    margin-top:5px;
+    font-size: 0.90em;
+}
+
+.dataTables_wrapper .dataTables_info {
+    margin-top:5px;
+}
+.form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 2px;
+    font-size: 0.5rem;
+    color: #d83d5a;
+  }
+  .form_error input {
+    border: 1px solid #d83d5a;
+  }
+  .notbutton button{
+    pointer-events: none;
+    background-color: #6c757d;
+  }
+  .subbutton button{
+    pointer-events: auto;
+    background-color: #0d6efd;
+  }
+  .form_success span {
+    width: 80%;
+    height: 35px;
+    margin: 2px;
+    font-size: 0.5rem;
+    color: green
+  }
+  .form_success input {
+    border: 1px solid green;
+  }
+
+  .category_body .category_card .card-body .row #category_table_index_wrapper .dataTables_length{
+    display: none;
+  }
+  .category_body .category_card .card-body .row #delete_table_category_wrapper .dataTables_length{
+    display: none;
+  }

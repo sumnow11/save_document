@@ -1,0 +1,113 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	
+}
+
+.navbar-up {
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	margin-left: 0px;
+	transition: 0.4s;
+    top: 0;
+}
+.nav-con {
+	margin-left: 250px;
+}
+.logoutfootter{
+	position:absolute;
+	bottom:0;
+}
+@media all and (min-height: 700px) {
+	.logoutfootteradmin{
+		position:absolute;
+		bottom:0;
+	}
+}
+@media all and (min-height: 699px) {
+	.logoutfootteradmin{
+	
+		bottom:0;
+	}
+}
+.navber-top{
+	display: block;
+}
+
+.nav-link {
+	font-size: 1.05em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+	background-color: #ffffff26;
+}
+
+.dropdown-menu.navdrop {
+	background-color: #212529;
+}
+
+.dropdown-item.navdrop:active,
+.dropdown-item.navdrop:focus,
+.dropdown-item.navdrop:hover {
+	background-color: #ffffff26;
+}
+.dropstart img{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.dropdown-menu.dropimg{
+	background-color: #fff;
+}
+.fa-search{
+	color: #000;
+}
+
+
+
+
+.my-container {
+	transition: 0.4s;
+}
+
+/* for navbar */
+
+.active-nav {
+	margin-left: -300;
+}
+
+/* for main section */
+
+.active-cont {
+	margin-left: 0px;
+}
+#logo h1{
+	font-size: 2.5em; 
+	font-family: 'Anton', sans-serif; 
+	text-shadow: 2px 2px #d2d6de;
+}
+a#logo h1{
+	font-size: 1.5em; 
+	font-family: 'Anton', sans-serif; 
+	text-shadow: 2px 2px #d2d6de;
+}
+.logo{
+	font-size: 1.0em; 
+	font-family: 'Anton', sans-serif; 
+	
+}
+
+@media all and (max-width:767px){
+	.nav-con {
+		margin-left: 0px;
+	}
+}
